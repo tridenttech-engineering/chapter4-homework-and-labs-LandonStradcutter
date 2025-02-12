@@ -14,11 +14,17 @@ cout << "Small pizzas sold: ";
 cin >> small;
 cout << "Medium pizzas sold: ";
 cin >> medium;
-cout << "Large pizzas sold: ": cin > larges
-cout << Family pizzas sold: *; cin » family;
-totalSold - small + medium + large + fandly: cout « endi;
+cout << "Large pizzas sold: ";
+cin >> large;
+cout << "Family pizzas sold: ";
+cin >> family;
+totalSold - small + medium + large + family;
+cout << endi;
 cout << Total pizzas sold: • « totalSold « endi;
-cout << "Small pizzas sold: • « small/ totalSold • 100 « -g° « end; cout « "Medium pizzas sold: - « mediun/ totalSold • 100 « '%* « endl; cout « Large pizzas sold:* « large/totalSold • 100 « "g" « endi; cout « "Family pizzes sold: " « feuday/ totalSold • 100 « *%* «€ endia
+cout << "Small pizzas sold: • << small/ totalSold * 100 << "%° << end1;
+cout << "Medium pizzas sold: " << mediun/ totalSold • 100 « "%* << endl;
+cout << "Large pizzas sold: " << large/totalSold • 100 « "%" << endi;
+cout << "Family pizzes sold: " << family/ totalSold • 100 << *%* << end1;
 
 
   return 0;
