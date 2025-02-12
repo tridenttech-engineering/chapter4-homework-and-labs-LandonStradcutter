@@ -8,30 +8,24 @@ using namespace std;
 int main()
 {
   // Declare constants and variables
-  const double Increase = 1.05;
+  const double increase = 1.05;
   double store1 = 0.0;
   double store2 = 0.0;
-  int store1Int = 0;
-  int store2Int = 0;
-  int totalInt = 0;
+  double total = 0.0;
 
-
-  std::cout << "store 1 sales: ";
+  std::cout << "store1 sales: ";
   std::cin >> store1;
-  std::cout << "store 2 sales: ";
+  std::cout << "store2 sales: ";
   std::cin >> store2;
-
-  store1Int = static_cast<int>(store1 = Increase * 100 + 0.5);
-  store2Int = static_cast<int>(store2 = Increase * 100 + 0.5);
-  totalInt = store1Int + store2Int;
-
-
-
-std::cout << std::fixed << std::setprecision(2);
-std::cout << store1Int / 100.0 << " ---> Store 1" << std::endl;
-std::cout << store2Int / 100.0 << " ---> Store 2" << std::endl;
-std::cout << "--------------" << std::endl;
-std::cout << totalInt / 100.0 << " ---› Total" << std::endl;
+  store1 = store1 * increase;
+  store2 = store2 * increase;
+  total = store1 + store2;
+  std::cout << fixed << setprecision(2) << endl;
+  std::cout << store1 << "--->store1" << endl;
+  std::cout << store2 << "--->store2" << endl;
+  std::cout << "-----------------" << endl;
+  std::cout << total << "--->total" << endl;
+  
 return 0;
 }	//end of main function
 
