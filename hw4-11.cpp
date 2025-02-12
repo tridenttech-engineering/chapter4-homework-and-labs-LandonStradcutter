@@ -4,7 +4,21 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() {double sale price=0.0;
+            double taxe rate= 0.0;
+            double sales tax=0.0;
+            double cost=0.0;
+
+            cout << "Enter the sale price"
+              cin >> sale price;
+            cout << "Enter the sales tax rate: ";
+            cin >> taxRate;
+            salestax = salePrice * tax Rate;
+            cost = salePrice +sales tax;
+
+            cout << "Cost: $" << cost << end1;
+
+          
   
 
   return 0;
