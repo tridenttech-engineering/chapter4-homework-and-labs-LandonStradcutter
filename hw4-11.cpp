@@ -10,7 +10,7 @@ int main() {double sale price=0.0;
             double cost=0.0;
 
             cout << "Enter the sale price"
-              cin >> sale price;
+            cin >> sale price;
             cout << "Enter the sales tax rate: ";
             cin >> taxRate;
             salestax = salePrice * tax Rate;
