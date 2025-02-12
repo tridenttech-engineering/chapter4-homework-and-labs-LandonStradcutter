@@ -7,6 +7,33 @@ using namespace std;
 
 int main()
 {
+  // Declare constants and variables
+  const double Increase = 1.05;
+  double store1 = 0.0;
+  int store1Int = 0;
+  int store2Int = 0;
+  int totalInt = 0;
+
+
+  std::cout << "store 1 sales: ";
+  std::cin >> store1;
+  std::cout << "store 2 sales: ";
+  std::cin >> store2;
+
+  store1Int = static_cast<int>(store1 = increase * 100 + 0.5);
+  store2Int = static_casr<int>(store2 = increase * 100 + 0.5);
+
+
+
+
+  totalInt=store1Int +store2Int;
+
+
+std::cout « std::fixed « std: :setprecision(2);
+std::cout « storelInt / 100.0 « * ---> Store 1° « std::endl;
+std::cout « store2Int / 100.0 « • ..-› Store 2º « std::endl;
+std::cout « "--------------" « stdendi;
+std::cout « totalint / 100.0 < " ---› Total" « std::endl;
 
   return 0;
 }	//end of main function
