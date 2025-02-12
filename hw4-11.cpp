@@ -4,9 +4,9 @@
 #include <iostream>
 using namespace std;
 
-int main() {double totalDeposits=409.43;
-            double totalwithdrawls= 210.65;
-            double startbalance=2545.75;
+int main() {double totalDeposits=0.0;
+            double totalwithdrawls= 0.0;
+            double startbalance=0.0;
             double endingbalance=0.0;
 
             cout << "Enter starting balance:";
@@ -17,7 +17,7 @@ int main() {double totalDeposits=409.43;
             cin >> totalwithdrawls;
             endingbalance = startbalance + totalDeposits - totalwithdrawls;
 
-            cout << "Ending balance: $" << endingbalance << end1;
+            cout << "Ending balance: $" << endingbalance << endl;
 
           
   
